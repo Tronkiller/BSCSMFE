@@ -5,7 +5,7 @@ Import-module msonline
 Import-module ExchangeOnlineManagement
 
 
-connect-exchangeOnline -Userprincipalname 365_saani@pillartopost.com
+connect-exchangeOnline -Userprincipalname <UPN>
 connect-MsolService
 
 
