@@ -8,7 +8,7 @@ Import-module ExchangeOnlineManagement
 
 
 #Log on to Admin profile. Replace <UPN> with email address
-connect-exchangeOnline -Userprincipalname 365_saani@pillartopost.com
+connect-exchangeOnline -Userprincipalname <UPN>
 connect-MsolService
 
 #Provide option to block the user
